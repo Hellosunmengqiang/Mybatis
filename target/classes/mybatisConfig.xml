@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+   <properties resource="jdbc.properties"></properties>
+   <settings><!-- mybatis全局配置 -->
+       <!-- regDate 对应 reg_date -->
+       <setting name="mapUnderscoreToCamelCase" value="true"/>
+       <!-- 以下两个开启了懒加载，默认是关闭的 -->
+       <setting name="lazyLoadingEnabled" value="true"/>
+       <setting name="aggressiveLazyLoading" value="false"/>
+      <setting name="cacheEnabled" value="true"/> <!--  开启二级缓存-->
+   </settings>
+   
+   <typeAliases><!-- 取别名 -->
+      <!-- 单个类取别名 -->
+      <!--  <typeAlias type="com.model.User" alias="user"/>  -->
+      <!-- 批量为莫个包里面的java类，起别名，包装类一般是大写变小写User user(自动起的) -->
+      <package name="com.model"/><!-- 在这里没用到 -->
+     
+   </typeAliases>
+   
+   <plugins>
+    <!-- com.github.pagehelper为PageHelper类所在包名 -->
+    <plugin interceptor="com.github.pagehelper.PageInterceptor">
+        <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+       <!-- <property name="param1" value="value1"/> --> 
+	</plugin>
+</plugins>
+
+  <environments default="mysql"><!-- 环境配置 --> 
+    <environment id="mysql">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="${jdbc.driverClass}"/>
+        <property name="url" value="${jdbc.jdbcUrl}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="#{jdbc.password}"/>
+      </dataSource>
+    </environment>
+      
+    <environment id="oracel">
+       <transactionManager type="oracel"></transactionManager>
+       <dataSource type="POOLED">         
+       </dataSource>
+    </environment>
+  </environments>
+  
+  <databaseIdProvider type="DB_VENDOR">
+      <property name="Mysql" value="mysql"/>
+      <property name="Oracel" value="oracel"/>
+  
+  </databaseIdProvider>
+  
+  <mappers>
+   <!--  <mapper class="com.mapper.UserMapper"/>-->
+   <package name="com.mapper"/><!-- 全局变量的使用 -->
+    
+  </mappers>
+</configuration>

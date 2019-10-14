@@ -1,0 +1,266 @@
+2019-06-06 15:07:15,168 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:07:15,206 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:07:15,206 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:07:15,206 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:07:15,206 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:07:15,406 DEBUG Opening JDBC Connection
+2019-06-06 15:07:15,840 DEBUG Created connection 225290371.
+2019-06-06 15:07:15,840 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:07:15,846 DEBUG ==>  Preparing: select id,username,pasword,reg_date regDate,state from mybatis where id= ? 
+2019-06-06 15:07:15,877 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:07:15,951 DEBUG <==      Total: 1
+2019-06-06 15:07:15,952 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:07:15,953 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:07:15,953 DEBUG Returned connection 225290371 to pool.
+2019-06-06 15:08:35,970 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:08:35,991 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:08:35,992 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:08:35,992 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:08:35,992 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:08:36,101 DEBUG Opening JDBC Connection
+2019-06-06 15:08:36,371 DEBUG Created connection 225290371.
+2019-06-06 15:08:36,371 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:08:36,378 DEBUG ==>  Preparing: select id,username,pasword,reg_date regDate,state from mybatis where id= ? 
+2019-06-06 15:08:36,408 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:08:36,439 DEBUG <==      Total: 1
+2019-06-06 15:08:36,441 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:08:36,442 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:08:36,442 DEBUG Returned connection 225290371 to pool.
+2019-06-06 15:19:55,165 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:19:55,186 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:19:55,186 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:19:55,186 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:19:55,186 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:19:55,282 DEBUG Opening JDBC Connection
+2019-06-06 15:19:55,540 DEBUG Created connection 225290371.
+2019-06-06 15:19:55,541 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:19:55,549 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:19:55,585 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:19:55,619 DEBUG <==      Total: 1
+2019-06-06 15:19:55,621 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:19:55,622 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@d6da883]
+2019-06-06 15:19:55,622 DEBUG Returned connection 225290371 to pool.
+2019-06-06 15:22:18,248 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:22:18,259 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:22:18,259 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:22:18,260 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:22:18,260 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:22:18,384 DEBUG Opening JDBC Connection
+2019-06-06 15:22:18,657 DEBUG Created connection 297927961.
+2019-06-06 15:22:18,657 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:22:18,662 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:22:18,693 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:22:18,723 DEBUG <==      Total: 1
+2019-06-06 15:22:18,725 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:22:18,726 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:22:18,726 DEBUG Returned connection 297927961 to pool.
+2019-06-06 15:26:36,913 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:26:36,923 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:26:36,923 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:26:36,923 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:26:36,923 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:26:37,029 DEBUG Opening JDBC Connection
+2019-06-06 15:26:37,300 DEBUG Created connection 297927961.
+2019-06-06 15:26:37,300 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:26:37,306 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:26:37,342 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:26:37,369 DEBUG <==      Total: 1
+2019-06-06 15:26:37,370 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:26:37,371 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:26:37,371 DEBUG Returned connection 297927961 to pool.
+2019-06-06 15:29:44,712 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:29:44,721 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:29:44,721 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:29:44,722 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:29:44,722 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:29:44,809 DEBUG Opening JDBC Connection
+2019-06-06 15:29:45,050 DEBUG Created connection 297927961.
+2019-06-06 15:29:45,050 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:29:45,056 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:29:45,091 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:29:45,132 DEBUG <==      Total: 1
+2019-06-06 15:29:45,133 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:29:45,134 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:29:45,134 DEBUG Returned connection 297927961 to pool.
+2019-06-06 15:30:44,782 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:30:44,793 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:30:44,793 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:30:44,793 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:30:44,793 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:30:44,892 DEBUG Opening JDBC Connection
+2019-06-06 15:30:45,131 DEBUG Created connection 297927961.
+2019-06-06 15:30:45,131 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:30:45,137 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:30:45,171 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:30:45,196 DEBUG <==      Total: 1
+2019-06-06 15:30:45,197 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:30:45,198 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@11c20519]
+2019-06-06 15:30:45,198 DEBUG Returned connection 297927961 to pool.
+2019-06-06 15:33:03,181 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:33:03,191 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:33:03,191 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:33:03,191 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:33:03,191 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:33:03,280 DEBUG Opening JDBC Connection
+2019-06-06 15:33:03,530 DEBUG Created connection 1772160903.
+2019-06-06 15:33:03,530 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@69a10787]
+2019-06-06 15:33:03,535 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:33:03,567 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:33:03,595 DEBUG <==      Total: 1
+2019-06-06 15:33:03,596 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@69a10787]
+2019-06-06 15:33:03,597 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@69a10787]
+2019-06-06 15:33:03,597 DEBUG Returned connection 1772160903 to pool.
+2019-06-06 15:50:34,833 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 15:50:34,838 DEBUG Class not found: org.jboss.vfs.VFS
+2019-06-06 15:50:34,839 DEBUG JBoss 6 VFS API is not available in this environment.
+2019-06-06 15:50:34,842 DEBUG Class not found: org.jboss.vfs.VirtualFile
+2019-06-06 15:50:34,842 DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-06-06 15:50:34,843 DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-06-06 15:50:34,843 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 15:50:34,844 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 15:50:34,982 DEBUG Reader entry: User.class
+2019-06-06 15:50:34,982 DEBUG Reader entry: UserMapper.xml
+2019-06-06 15:50:34,983 DEBUG Listing file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 15:50:34,983 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 15:50:34,983 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 15:50:34,983 DEBUG Reader entry: Êþº¾   1 P  com/model/User  java/lang/Object id I username Ljava/lang/String; pasword regDate Ljava/sql/Date; state getId ()I Code	     LineNumberTable LocalVariableTable this Lcom/model/User; setId (I)V getUsername ()Ljava/lang/String;	     setUsername (Ljava/lang/String;)V 
+2019-06-06 15:50:34,985 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/UserMapper.xml
+2019-06-06 15:50:34,985 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/UserMapper.xml
+2019-06-06 15:50:34,985 DEBUG Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-06-06 15:50:34,986 DEBUG Checking to see if class com.model.User matches criteria [is assignable to Object]
+2019-06-06 15:50:35,010 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:50:35,010 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:50:35,010 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:50:35,010 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 15:50:35,115 DEBUG Opening JDBC Connection
+2019-06-06 15:50:35,366 DEBUG Created connection 824208363.
+2019-06-06 15:50:35,366 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@31206beb]
+2019-06-06 15:50:35,372 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 15:50:35,407 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 15:50:35,429 DEBUG <==      Total: 1
+2019-06-06 15:50:35,430 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@31206beb]
+2019-06-06 15:50:35,431 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@31206beb]
+2019-06-06 15:50:35,434 DEBUG Returned connection 824208363 to pool.
+2019-06-06 18:19:44,078 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 18:19:44,087 DEBUG Class not found: org.jboss.vfs.VFS
+2019-06-06 18:19:44,087 DEBUG JBoss 6 VFS API is not available in this environment.
+2019-06-06 18:19:44,089 DEBUG Class not found: org.jboss.vfs.VirtualFile
+2019-06-06 18:19:44,090 DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-06-06 18:19:44,090 DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-06-06 18:19:44,091 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:19:44,091 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:19:44,145 DEBUG Reader entry: User.class
+2019-06-06 18:19:44,145 DEBUG Reader entry: UserMapper.xml
+2019-06-06 18:19:44,146 DEBUG Listing file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:19:44,146 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 18:19:44,146 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 18:19:44,147 DEBUG Reader entry: Êþº¾   1 P  com/model/User  java/lang/Object id I username Ljava/lang/String; pasword regDate Ljava/sql/Date; state getId ()I Code	     LineNumberTable LocalVariableTable this Lcom/model/User; setId (I)V getUsername ()Ljava/lang/String;	     setUsername (Ljava/lang/String;)V 
+2019-06-06 18:19:44,148 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/UserMapper.xml
+2019-06-06 18:19:44,148 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/UserMapper.xml
+2019-06-06 18:19:44,149 DEBUG Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-06-06 18:19:44,150 DEBUG Checking to see if class com.model.User matches criteria [is assignable to Object]
+2019-06-06 18:19:44,178 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:19:44,178 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:19:44,178 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:19:44,178 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:19:44,431 DEBUG Created connection 2056418216.
+2019-06-06 18:19:44,432 DEBUG Returned connection 2056418216 to pool.
+2019-06-06 18:19:44,528 DEBUG Opening JDBC Connection
+2019-06-06 18:19:44,528 DEBUG Checked out connection 2056418216 from pool.
+2019-06-06 18:19:44,528 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 18:19:44,533 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 18:19:44,568 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 18:19:44,596 DEBUG <==      Total: 1
+2019-06-06 18:19:44,597 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 18:19:44,598 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 18:19:44,598 DEBUG Returned connection 2056418216 to pool.
+2019-06-06 18:20:31,772 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 18:20:31,778 DEBUG Class not found: org.jboss.vfs.VFS
+2019-06-06 18:20:31,778 DEBUG JBoss 6 VFS API is not available in this environment.
+2019-06-06 18:20:31,780 DEBUG Class not found: org.jboss.vfs.VirtualFile
+2019-06-06 18:20:31,781 DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-06-06 18:20:31,781 DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-06-06 18:20:31,782 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:20:31,782 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:20:31,830 DEBUG Reader entry: User.class
+2019-06-06 18:20:31,831 DEBUG Listing file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:20:31,831 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 18:20:31,831 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 18:20:31,832 DEBUG Reader entry: Êþº¾   1 P  com/model/User  java/lang/Object id I username Ljava/lang/String; pasword regDate Ljava/sql/Date; state getId ()I Code	     LineNumberTable LocalVariableTable this Lcom/model/User; setId (I)V getUsername ()Ljava/lang/String;	     setUsername (Ljava/lang/String;)V 
+2019-06-06 18:20:31,833 DEBUG Checking to see if class com.model.User matches criteria [is assignable to Object]
+2019-06-06 18:20:31,860 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:20:31,861 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:20:31,861 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:20:31,861 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:20:32,099 DEBUG Created connection 2056418216.
+2019-06-06 18:20:32,099 DEBUG Returned connection 2056418216 to pool.
+2019-06-06 18:21:21,732 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 18:21:21,736 DEBUG Class not found: org.jboss.vfs.VFS
+2019-06-06 18:21:21,736 DEBUG JBoss 6 VFS API is not available in this environment.
+2019-06-06 18:21:21,739 DEBUG Class not found: org.jboss.vfs.VirtualFile
+2019-06-06 18:21:21,739 DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-06-06 18:21:21,740 DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-06-06 18:21:21,741 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:21:21,741 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:21:21,787 DEBUG Reader entry: User.class
+2019-06-06 18:21:21,787 DEBUG Listing file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 18:21:21,787 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 18:21:21,788 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 18:21:21,788 DEBUG Reader entry: Êþº¾   1 P  com/model/User  java/lang/Object id I username Ljava/lang/String; pasword regDate Ljava/sql/Date; state getId ()I Code	     LineNumberTable LocalVariableTable this Lcom/model/User; setId (I)V getUsername ()Ljava/lang/String;	     setUsername (Ljava/lang/String;)V 
+2019-06-06 18:21:21,789 DEBUG Checking to see if class com.model.User matches criteria [is assignable to Object]
+2019-06-06 18:21:21,819 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:21:21,819 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:21:21,819 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:21:21,819 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 18:21:22,065 DEBUG Created connection 2056418216.
+2019-06-06 18:21:22,065 DEBUG Returned connection 2056418216 to pool.
+2019-06-06 18:21:22,187 DEBUG Opening JDBC Connection
+2019-06-06 18:21:22,187 DEBUG Checked out connection 2056418216 from pool.
+2019-06-06 18:21:22,187 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 18:21:22,192 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 18:21:22,222 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 18:21:22,249 DEBUG <==      Total: 1
+2019-06-06 18:21:22,250 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 18:21:22,254 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 18:21:22,254 DEBUG Returned connection 2056418216 to pool.
+2019-06-06 19:18:05,121 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-06-06 19:18:05,125 DEBUG Class not found: org.jboss.vfs.VFS
+2019-06-06 19:18:05,125 DEBUG JBoss 6 VFS API is not available in this environment.
+2019-06-06 19:18:05,127 DEBUG Class not found: org.jboss.vfs.VirtualFile
+2019-06-06 19:18:05,127 DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-06-06 19:18:05,128 DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-06-06 19:18:05,129 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 19:18:05,129 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 19:18:05,174 DEBUG Reader entry: User.class
+2019-06-06 19:18:05,175 DEBUG Listing file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model
+2019-06-06 19:18:05,175 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 19:18:05,175 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/model/User.class
+2019-06-06 19:18:05,176 DEBUG Reader entry: Êþº¾   1 P  com/model/User  java/lang/Object id I username Ljava/lang/String; pasword regDate Ljava/sql/Date; state getId ()I Code	     LineNumberTable LocalVariableTable this Lcom/model/User; setId (I)V getUsername ()Ljava/lang/String;	     setUsername (Ljava/lang/String;)V 
+2019-06-06 19:18:05,177 DEBUG Checking to see if class com.model.User matches criteria [is assignable to Object]
+2019-06-06 19:18:05,208 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 19:18:05,208 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 19:18:05,208 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 19:18:05,208 DEBUG PooledDataSource forcefully closed/removed all connections.
+2019-06-06 19:18:05,446 DEBUG Created connection 2056418216.
+2019-06-06 19:18:05,446 DEBUG Returned connection 2056418216 to pool.
+2019-06-06 19:18:05,455 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper
+2019-06-06 19:18:05,455 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper
+2019-06-06 19:18:05,457 DEBUG Reader entry: UserMapper.class
+2019-06-06 19:18:05,457 DEBUG Reader entry: UserMapper.xml
+2019-06-06 19:18:05,457 DEBUG Listing file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper
+2019-06-06 19:18:05,457 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper/UserMapper.class
+2019-06-06 19:18:05,457 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper/UserMapper.class
+2019-06-06 19:18:05,458 DEBUG Reader entry: Êþº¾   1 	  com/mapper/UserMapper  java/lang/Object getOneUserById %(Ljava/lang/Integer;)Lcom/model/User; 
+2019-06-06 19:18:05,458 DEBUG Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper/UserMapper.xml
+2019-06-06 19:18:05,458 DEBUG Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/demo/target/classes/com/mapper/UserMapper.xml
+2019-06-06 19:18:05,459 DEBUG Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-06-06 19:18:05,459 DEBUG Checking to see if class com.mapper.UserMapper matches criteria [is assignable to Object]
+2019-06-06 19:18:05,543 DEBUG Opening JDBC Connection
+2019-06-06 19:18:05,543 DEBUG Checked out connection 2056418216 from pool.
+2019-06-06 19:18:05,543 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 19:18:05,549 DEBUG ==>  Preparing: select * from mybatis where id= ? 
+2019-06-06 19:18:05,584 DEBUG ==> Parameters: 1(Integer)
+2019-06-06 19:18:05,611 DEBUG <==      Total: 1
+2019-06-06 19:18:05,612 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 19:18:05,613 DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2019-06-06 19:18:05,613 DEBUG Returned connection 2056418216 to pool.
